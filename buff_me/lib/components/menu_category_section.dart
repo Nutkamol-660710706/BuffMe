@@ -7,7 +7,7 @@ class MenuCategorySection extends StatelessWidget {
   final List<MenuItem> items;
   final Function(MenuItem) addToCart;
 
-  MenuCategorySection({
+  const MenuCategorySection({super.key, 
     required this.categoryName,
     required this.items,
     required this.addToCart,

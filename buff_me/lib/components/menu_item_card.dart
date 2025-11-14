@@ -5,7 +5,7 @@ class MenuItemCard extends StatelessWidget {
   final MenuItem item;
   final Function(MenuItem) addToCart;
 
-  MenuItemCard({required this.item, required this.addToCart});
+  const MenuItemCard({super.key, required this.item, required this.addToCart});
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +14,6 @@ class MenuItemCard extends StatelessWidget {
       child: ListTile(
         leading: Image.network(item.image, width: 50, height: 50, fit: BoxFit.cover),
         title: Text(item.name),
-        subtitle: Text('${item.price.toStringAsFixed(0)} ฿'),
         trailing: IconButton(
           icon: Icon(Icons.add),
           onPressed: () => addToCart(item),

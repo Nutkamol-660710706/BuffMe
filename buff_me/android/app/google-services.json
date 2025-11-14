@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "118127339712",
+    "project_id": "buffme-cd886",
+    "storage_bucket": "buffme-cd886.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118127339712:android:65c518b86b2470b70ce525",
+        "android_client_info": {
+          "package_name": "com.example.buff_me"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAQUk1oC4dJk_lqzDN2U_1NKsw2c6hzdk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
