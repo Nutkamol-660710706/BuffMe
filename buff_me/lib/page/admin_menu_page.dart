@@ -56,14 +56,17 @@ class _AdminMenuPageState extends State<AdminMenuPage> {
                       controller: _imageCtrl,
                       decoration: const InputDecoration(labelText: "URL รูปภาพ"),
                     ),
-                    const SizedBox(height: 10),
-                    if (_imageCtrl.text.isNotEmpty)
-                      Image.network(
-                        _imageCtrl.text,
-                        height: 150,
-                        width: double.infinity,
-                        fit: BoxFit.cover,
-                      ),
+                    // const SizedBox(height: 10),
+                    // if (_imageCtrl.text.isNotEmpty)
+                    //   Image.network(
+                    //     _imageCtrl.text,
+                    //     height: 150,
+                    //     width: double.infinity,
+                    //     fit: BoxFit.cover,
+                    //     errorBuilder: (context, error, stackTrace) {
+                    //       return const Icon(Icons.broken_image, size: 80, color: Colors.grey);
+                    //     },
+                    //   ),
                   ],
                 ),
               ),
